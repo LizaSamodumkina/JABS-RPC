@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package org.samodumkina.stubs.order;
+
+option java_multiple_files = true;
+
+service OrderService{
+  rpc createOrder(OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest{
+  int32 product_id = 1;
+}
+
+message OrderResponse{
+  string message = 1;
+}

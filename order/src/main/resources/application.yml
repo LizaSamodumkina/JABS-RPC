@@ -1,0 +1,7 @@
+server:
+  port: 8081
+grpc:
+  port: 9000
+
+application:
+  product-server-port: 8000
