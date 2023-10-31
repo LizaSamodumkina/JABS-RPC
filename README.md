@@ -1,9 +1,9 @@
 # JABC-RPC
 
 Project consists of three modules:
-1. **common** include proto files
-2. **product** include server to get product
-3. **order** include server to check is order available by calling product client
+1. **common** includes proto files
+2. **product** includes server to get product
+3. **order** includes server to check is order available by calling product client
 
 To generate java classes from `.proto` files run in common module:
 
@@ -15,7 +15,9 @@ http://localhost:8080/h2-console .
 Order server starts on port **9000**, tomcat port is **8081**. 
 
 For test purposes Postman can be used. `getProduct` call:
+
 ![img.png](product.png)
 
 `createOrder` call:
+
 ![img_1.png](order.png)
